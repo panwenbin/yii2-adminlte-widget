@@ -1,0 +1,28 @@
+{
+  "name": "panwenbin/yii2-adminlte-widget",
+  "description": "Yii2 widgets for AdminTte theme template",
+  "keywords": [
+    "Yii",
+    "Yii2",
+    "adminlte",
+    "widget"
+  ],
+  "type": "yii2-extension",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pan Wenbin",
+      "email": "panwenbin@gmail.com"
+    }
+  ],
+  "require": {
+    "almasaeed2010/adminlte": "2.*",
+    "yiisoft/yii2-bootstrap": "2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "panwenbin\\yii2\\adminlte\\": "src/"
+    }
+  }
+}
